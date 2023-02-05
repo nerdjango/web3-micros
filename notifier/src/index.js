@@ -29,6 +29,11 @@ async function main() {
                     .toLowerCase()
                     .includes(
                         process.env.CONTRACT_ADDRESS.substring(2).toLowerCase()
+                    ) ||
+                transaction.data
+                    .toLowerCase()
+                    .includes(
+                        process.env.CONTRACT_ADDRESS.substring(2).toLowerCase()
                     )
             ) {
                 console.log("eureka!");
