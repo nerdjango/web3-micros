@@ -1,6 +1,6 @@
 # web3-micros (Web3 Security)
 
-## Components
+## microservice
 
 ### contracts:
 
